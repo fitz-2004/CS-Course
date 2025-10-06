@@ -57,7 +57,7 @@
 -   **running -> blocked**: process is waiting for input or carried out a system call
 -   **blocked -> ready**: event happens, e.g. I/O operation has finished
 -   **running -> ready**: get interrupted by process with higher priority or run out of time slice
--   **running -> exit**: the process has finished, e.g. program ended or exception encountered
+-   **running -> terminate**: the process has finished, e.g. program ended or exception encountered
 -   **Interrupts and system calls drive these transitions**
 
 <img src="assets/Screenshot 2023-10-19 at 00.40.08.png" alt="Screenshot 2023-10-19 at 00.40.08" style="zoom:33%;" />
